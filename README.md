@@ -6,3 +6,5 @@ Next steps of coding are an editor for the small square weight array (same weigh
 v1 pics:
 <img src="https://raw.githubusercontent.com/benrayfield/timelessCellularAutomataPuzzleGame/master/pics/timelessCellularAutomata_0.1_doubleClickToRun_or_unzipToGetSourceCode.jar.pic1.png"/>
 <img src="https://raw.githubusercontent.com/benrayfield/timelessCellularAutomataPuzzleGame/master/pics/timelessCellularAutomata_0.1_doubleClickToRun_or_unzipToGetSourceCode.jar.pic2.png"/>
+<img src="https://raw.githubusercontent.com/benrayfield/timelessCellularAutomataPuzzleGame/master/pics/timelessCellularAutomata_0.1_doubleClickToRun_or_unzipToGetSourceCode.jar.pic3.png"/>
+<img src="https://raw.githubusercontent.com/benrayfield/timelessCellularAutomataPuzzleGame/master/pics/timelessCellularAutomata_0.1_doubleClickToRun_or_unzipToGetSourceCode.jar.pic4.png"/>
