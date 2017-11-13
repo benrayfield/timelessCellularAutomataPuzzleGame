@@ -27,7 +27,7 @@ The cell update rule is:
 
 Boltzmann was a physics guy. The boltzmann neuralnet energy equation says that this cell update rule, regardless of which cells are adjacent to which others (such as wormholes or a 2d grid), always converges toward (but may get stuck in valleys and not find the lowest) lower energy, which is why its timeless aka converges to a constant picture from any starting conditions. The cell update rule is statistically symmetric.
 
-    energy=sumForAllPairs_brightnessX_and_brightnessY(brightness_x*brightness_y*weight_x_y) + sumForAllCell_z(bias_z).
+    energy = -sumForAllPairs_brightnessX_and_brightnessY(brightness_x*brightness_y*weight_x_y) + sumForAllCell_z(bias_z*brightness_z)
 
 In this software, bias is the same for all cells, foir the same reason the (+2,-1) weight is duplicated between all cells separated by it.
 
