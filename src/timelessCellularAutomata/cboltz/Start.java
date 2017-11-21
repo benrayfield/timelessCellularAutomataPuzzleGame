@@ -1,11 +1,9 @@
 /** Ben F Rayfield offers this software opensource GNU GPL 2+ */
-package timelessCellularAutomata;
-
+package timelessCellularAutomata.cboltz;
 import javax.swing.JFrame;
-
 import humanaicore.common.Rand;
 import humanaicore.common.ScreenUtil;
-import timelessCellularAutomata.ui.GamePanel;
+import timelessCellularAutomata.cboltz.ui.GamePanel;
 
 public class Start{
 	

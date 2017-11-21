@@ -1,11 +1,11 @@
 /** Ben F Rayfield offers this software opensource GNU GPL 2+ */
-package timelessCellularAutomata.ui;
+package timelessCellularAutomata.cboltz.ui;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
 import humanaicore.common.Rand;
 import humanaicore.ui.StretchVideo;
-import timelessCellularAutomata.BoltzCellAutomata;
+import timelessCellularAutomata.cboltz.BoltzCellAutomata;
 
 public class GamePanel extends StretchVideo{
 	

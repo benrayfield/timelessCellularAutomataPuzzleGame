@@ -3,6 +3,7 @@ package humanaicore.common;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Random;
+import java.util.function.BooleanSupplier;
 import java.util.function.DoubleUnaryOperator;
 
 public class MathUtil{
@@ -73,8 +74,17 @@ public class MathUtil{
 	/** Consumes an average of 2 random bits (so its practical to use SecureRandom which is slow)
 	by consuming random bits until get the first 1 then going directly to that digit
 	in the chance as a binary fraction and returning it as the weighted random bit observe.
-	TODO I wrote that code somewhere, copy it here so its more practical more often to use SecureRandom.
 	*/
+	public static boolean weightedCoinFlip(double chance, BooleanSupplier rand){
+		if(chance < 0 || 1 < chance) throw new ArithmeticException("chance="+chance);
+		while(rand.getAsBoolean()){
+			if(.5 <= chance) chance -= .5;
+			chance *= 2;
+		}
+		return .5 <= chance;
+	}
+	
+	/** same as weightedCoinFlip(double,BooleanSupplier) */
 	public static boolean weightedCoinFlip(double chance, Random rand){
 		if(chance < 0 || 1 < chance) throw new ArithmeticException("chance="+chance);
 		while(rand.nextBoolean()){

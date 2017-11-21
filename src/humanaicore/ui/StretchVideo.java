@@ -11,10 +11,9 @@ import javax.swing.JPanel;
 
 /** Interactive pixel grid that stretches to panel size, normally low resolution
 because of the slowness of an IntBinaryOperator function call per magnified pixel.
-Remembers which (TODO) keys and mouse buttons are up and down and mouse position
+Remembers which keys and mouse buttons are up and down and mouse position
 and which square the mouse is over. Displays colored squares
 as IntBinaryOperator of (y,x) to colorARGB.
-Example: BiFunction which displays the vars in Ainodes each in an NxN smaller square.
 */
 public class StretchVideo extends JPanel implements MouseListener, MouseMotionListener{
 	

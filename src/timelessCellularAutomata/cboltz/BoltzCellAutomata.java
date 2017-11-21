@@ -1,5 +1,5 @@
 /** Ben F Rayfield offers this software opensource GNU GPL 2+ */
-package timelessCellularAutomata;
+package timelessCellularAutomata.cboltz;
 
 import humanaicore.common.MathUtil;
 import humanaicore.common.Rand;
