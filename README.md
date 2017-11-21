@@ -1,6 +1,12 @@
 # timelessCellularAutomataPuzzleGame
 2d cellular automata that guarantees convergence even with random rules, if the boltzmann neuralnet weights are big enough, and some sets of weights (which are each on all pairs of pixels at the same distance, or can also vary by angles is more interesting patterns) are turing-complete similar to rule110 in 2d. Purpose is interesting puzzle games.
 
+V0.2 [
+Run this file to try it https://github.com/benrayfield/timelessCellularAutomataPuzzleGame/releases/download/0.2.0/timelessCellularAutomata_0.2.0_doubleClickToRun_or_unzipToGetSourceCode.jar or unzip it to get source code and take it in your own direction of AI research. If it doesnt work install java 8+ from https://java.com and try again.
+
+Left mouse button makes it brighter, right button darker. Painting onto a pixel does not paint that pixel directly but trains the neuralnet to do that and the neuralnet (used convolutionally) chooses all pixel colors. Patterns you paint appear many places, so dont make the whole place too bright or dark or it will get stuck. It gets stuck anyways after you paint for maybe 30 seconds cuz the AI algorithm needs tuning. But its fun and a new experience. The neuralnet knows where you painted only indirectly by the echos of the random pixels that it started with at screen edge.
+]
+
 Next steps of coding are an editor for the small square weight array (same weights reused for all pixels to near pixels) or some way of statistically deriving weights of interesting patterns, then make it into some kind of puzzle game where you want certain pixels to be on and others to be off, and there would be bigger and fewer pixels in the puzzle game. The game might also include adjusting the automata rules aka boltzmann neuralnet weights.
 
 v1 pics:
